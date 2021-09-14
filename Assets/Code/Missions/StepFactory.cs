@@ -7,9 +7,14 @@ namespace Missions
     {
         public Step Create(StepConfiguration stepConfiguration)
         {
-            if (stepConfiguration is StepPuntoAPuntoBConfiguration configuration)
+            if (stepConfiguration is StepPuntoAPuntoBConfiguration stepPuntoAPuntoBConfiguration)
             {
-                return new StepPuntoAPuntoB(configuration);
+                return new StepPuntoAPuntoB(stepPuntoAPuntoBConfiguration);
+            }
+
+            if (stepConfiguration is StepMatarEnemigosConfiguration stepMatarEnemigosConfiguration)
+            {
+                return new StepMatarEnemigos(stepMatarEnemigosConfiguration);
             }
 
             throw new InvalidOperationException();

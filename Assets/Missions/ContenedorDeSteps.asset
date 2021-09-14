@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47eb801ef8404eeda5e45de60460007a, type: 3}
-  m_Name: StepPuntoAPuntoBConfiguration
+  m_Script: {fileID: 11500000, guid: ef7c1b83a62b4bdaa40a518191858c5b, type: 3}
+  m_Name: ContenedorDeSteps
   m_EditorClassIdentifier: 
   _stepsEnParalelo:
   - {fileID: 11400000, guid: 6155ccbe7c2cb4577af2421c6cec807f, type: 2}
+  - {fileID: 11400000, guid: b1b7d9eb867a24dfc97f030040bca756, type: 2}
   _stepsExcluyentes: []
-  _esObligatorio: 1
-  _destinoId: Destino1
+  _esObligatorio: 0

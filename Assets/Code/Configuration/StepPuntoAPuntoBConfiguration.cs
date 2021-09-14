@@ -1,3 +1,4 @@
+using Missions;
 using UnityEngine;
 
 namespace Configuration
@@ -9,5 +10,7 @@ namespace Configuration
         private string _destinoId;
 
         public string DestinoId => _destinoId;
+        
+ 
     }
 }

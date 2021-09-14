@@ -9,8 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85807a1b4703f4fc0a22c20e41d9e18a, type: 3}
-  m_Name: MissionConfig1
+  m_Script: {fileID: 11500000, guid: 1628feb6df4e47888a1e74dd359fd654, type: 3}
+  m_Name: StepMatarEnemigosConfiguration
   m_EditorClassIdentifier: 
-  _stepsConfiguration:
-  - {fileID: 11400000, guid: cafcb9266cd824a11a3777357f5d1b5f, type: 2}
+  _stepsEnParalelo: []
+  _stepsExcluyentes: []
+  _esObligatorio: 0
+  _enemigosaMatar:
+  - _tipoEnemigo: Enemigo1
+    _cantidad: 2
+  - _tipoEnemigo: Enemigo2
+    _cantidad: 1
